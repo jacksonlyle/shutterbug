@@ -39,11 +39,6 @@ Knowing the size of the camera sensor and my ideal size for the spectrograph, I 
 |---|---|---|
 | ![CAD cutaway](figures/cad-cutaway.png) | ![CAD exterior](figures/cad-exterior.png) | ![CAD top view](figures/cad-top-view.png) |
 
-The first print was not ideal. I used 100 mm and 71 mm plano-convex lenses (as opposed to the 103 mm and 73 mm calculated)
-and two razor blades as a slit, approximating a 25–100 µm slit width to gain more light at the cost of resolution. The data
-from that first build was unintelligible: dirty parts and gaps around the lens holders let light in around the edges and flood
-the sensor. I was forced to reprint the CAD with a slightly changed design on a better printer.
-
 ## Obtaining Data
 
 I took data on three sources: the flash bulb itself, a tungsten filament bulb (for flat frames), and an argon emission tube
