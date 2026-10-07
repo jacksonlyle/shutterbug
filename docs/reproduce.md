@@ -2,7 +2,7 @@
 
 ### Creating the spectrograph
 
-All necessary files are included in the [cad directory](cad/). The cad files are agnostic to specific 3D printers, however
+All necessary files are included in the [cad directory](../cad/). The cad files are agnostic to specific 3D printers, however
 the original print was done with a Bambu Labs printer. Ideally, you should plan to include some kind of surface to which
 you can mount the mounting bracket to, as it ensures that the spectrograph stays still. For the original design, this was a 
 small sheet of plywood.
@@ -62,7 +62,7 @@ assume that you have a set of Master Darks, Flats, and Bias frames at this point
 
 #### Plotting Light frames 
 
-To visualize the FITS image data as a 2d plot, this project uses a simple [python script](analysis/spectral_to_csv.py) to average 
+To visualize the FITS image data as a 2d plot, this project uses a simple [python script](../analysis/spectral_to_csv.py) to average 
 the central 20 rows of pixels into a 1d csv array. This allows for easy plotting of pixel column v. Intensity. More sophisticated 
 methods are welcomed, but not necessary due to the target resolution of this design. Whatever method you choose, ensure that you 
 have a set of 1d arrays for both the calibration sample data (such as an argon emission), and the actual light frames (such as the flash bulb emissions). 
